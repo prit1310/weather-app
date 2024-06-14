@@ -54,7 +54,12 @@ h2 {
 .data h2{
     padding-top: 2.5rem;
 }
-
+.author{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    color: orangered;
+}
 @media (max-width: 480px)  {
     input[type="text"]{
         width: 20%;
