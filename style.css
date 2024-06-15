@@ -116,8 +116,9 @@ button:hover {
     margin-top: 3rem;
   }
   .card {
-    width: 100%;
-    max-width: none;
+    width: 80%;
+    height: auto;
+    padding: 10px;
     margin-bottom: 1rem;
   }
   .card h2 {
