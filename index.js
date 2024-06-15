@@ -51,9 +51,9 @@ async function render() {
     {
         isDayEl.innerText = `Day`
         document.body.style.backgroundImage = `url("day.jpg")`
-        weather.style.color = "black"
-        cityname.style.color = "black"
-        author.style.color = "black"
+        weather.style.color = "white"
+        cityname.style.color = "white"
+        author.style.color = "white"
         timeEl.style.color = "black"
         temperatureEl.style.color = "black"
         windSpeedEl.style.color = "black"
@@ -64,9 +64,9 @@ async function render() {
     {
          isDayEl.innerText = `Night`
         document.body.style.backgroundImage = `url("night.jpg")`
-        weather.style.color = "black"
-        cityname.style.color = "black"
-        author.style.color = "black"
+        weather.style.color = "white"
+        cityname.style.color = "white"
+        author.style.color = "white"
         timeEl.style.color = "black"
         temperatureEl.style.color = "black"
         windSpeedEl.style.color = "black"
