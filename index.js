@@ -88,5 +88,15 @@ async function render() {
     else
         alert('error!!!')
 }
+document.getElementById('cityName').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        document.getElementById('submitBtn').click();
+    }
+});
+
+document.getElementById('submitBtn').addEventListener('click', function() {
+    const cityName = document.getElementById('cityName').value;
+    console.log('City Name:', cityName);
+});
 
 submitBtnEl.addEventListener('click',render)
