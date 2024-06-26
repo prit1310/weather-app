@@ -50,7 +50,7 @@ async function render() {
     if(dataArray[3] === 1)
     {
         isDayEl.innerText = `Day`
-        document.body.style.backgroundImage = `url("day.jpg")`
+        document.body.style.backgroundImage = `url("images/day.jpg")`
         weather.style.color = "white"
         cityname.style.color = "white"
         author.style.color = "white"
@@ -58,12 +58,12 @@ async function render() {
         temperatureEl.style.color = "black"
         windSpeedEl.style.color = "black"
         isDayEl.style.color = "black"
-        dayOrNight.src = "day1.png"
+        dayOrNight.src = "images/day1.png"
     }
     else if(dataArray[3] === 0)
     {
          isDayEl.innerText = `Night`
-        document.body.style.backgroundImage = `url("night.jpg")`
+        document.body.style.backgroundImage = `url("images/night.jpg")`
         weather.style.color = "white"
         cityname.style.color = "white"
         author.style.color = "white"
@@ -71,19 +71,19 @@ async function render() {
         temperatureEl.style.color = "black"
         windSpeedEl.style.color = "black"
         isDayEl.style.color = "black"
-        dayOrNight.src = "night1.png"
+        dayOrNight.src = "images/night1.png"
     }
     else
         alert('error!!!')
     if(dataArray[6] === 1)
     {
         isRainEl.innerText = `Rain`
-        rainOrNot.src = "rain.png"
+        rainOrNot.src = "images/rain.png"
     }
     else if(dataArray[6] === 0)
     {
         isRainEl.innerText = `No rain`
-        rainOrNot.src = "norain.png"
+        rainOrNot.src = "images/norain.png"
     }
     else
         alert('error!!!')
